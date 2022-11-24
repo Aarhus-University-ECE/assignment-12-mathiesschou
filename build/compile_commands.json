@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12  -I\"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/include\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/mylib.dir/src/duration.cpp.o -c \"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/duration.cpp\"",
+  "file": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/duration.cpp"
+},
+{
+  "directory": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12  -I\"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/include\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -g -O0 -std=gnu++14 -o CMakeFiles/main.dir/src/main.cpp.o -c \"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/main.cpp\"",
+  "file": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/main.cpp"
+},
+{
+  "directory": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12  -I\"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/include\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/tests.dir/src/tests.cpp.o -c \"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/src/tests.cpp\"",
+  "file": "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/src/tests.cpp"
+}
+]
