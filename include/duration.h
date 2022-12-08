@@ -1,46 +1,28 @@
 #include <cassert>
 
-class Duration
+class duration
 {
     private:
+    // sekunder der er gået
     int time = 0;
+    // laver en alarm
     int alarm = 0;
+    // sætter en alarm
     bool alarmHasBeenSet = false;
+    // checker alarmen og opdaterer den tilbage til 0
     bool checkAndUpdateAlarm(); 
 
     public:
-    Duration(int t)
-    {
-        assert(t >= 0);
-
-        time = t;
-    }
-
-    Duration()
-    {
-        time = 0;
-    }
-    
-    bool tick()
-    {
-        time++;
-       return checkAndUpdateAlarm();
-    }
-
-    bool tick(int b)
-    {
-       time += b; 
-       return checkAndUpdateAlarm();
-
-    }
-
-    void setAlarm(int t)
-    {
-        assert(t > time);
-        alarmHasBeenSet = true;
-        alarm = t;
-    }
-
+    // giver tidsværdien
     int getDuration();
-
+    // sætter tiden
+    duration(int t);
+    // sætter tiden to 0
+    duration();
+    // ticks uret med 1++
+    bool tick();
+    // tilføjer b to den nuværende tid
+    bool tick(int b);
+    // tillader brugeren at sætte en alarm
+    void setAlarm(int t);
 };

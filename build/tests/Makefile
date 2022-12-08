@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou"
+CMAKE_SOURCE_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build"
+CMAKE_BINARY_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests//CMakeFiles/progress.marks"
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" 0
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests//CMakeFiles/progress.marks"
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/tests.dir/rule:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/rule
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/rule
 .PHONY : tests/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ tests: tests/CMakeFiles/tests.dir/rule
 
 # fast build rule for target.
 tests/fast:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
 src/tests.o: src/tests.cpp.o
@@ -145,7 +145,7 @@ src/tests.o: src/tests.cpp.o
 
 # target to build an object file
 src/tests.cpp.o:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.o
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.o
 .PHONY : src/tests.cpp.o
 
 src/tests.i: src/tests.cpp.i
@@ -153,7 +153,7 @@ src/tests.i: src/tests.cpp.i
 
 # target to preprocess a source file
 src/tests.cpp.i:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.i
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.i
 .PHONY : src/tests.cpp.i
 
 src/tests.s: src/tests.cpp.s
@@ -161,7 +161,7 @@ src/tests.s: src/tests.cpp.s
 
 # target to generate assembly for a file
 src/tests.cpp.s:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.s
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/src/tests.cpp.s
 .PHONY : src/tests.cpp.s
 
 # Help Target
@@ -188,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

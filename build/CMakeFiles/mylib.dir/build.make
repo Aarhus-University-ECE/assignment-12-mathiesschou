@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou"
+CMAKE_SOURCE_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build"
+CMAKE_BINARY_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mylib.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/mylib.dir/progress.make
 include CMakeFiles/mylib.dir/flags.make
 
 CMakeFiles/mylib.dir/src/duration.cpp.o: CMakeFiles/mylib.dir/flags.make
-CMakeFiles/mylib.dir/src/duration.cpp.o: /Users/mathiesschou/Desktop/Programmering\ uge\ 12/assignment-12-mathiesschou/src/duration.cpp
+CMakeFiles/mylib.dir/src/duration.cpp.o: /Users/mathiesschou/Library/Mobile\ Documents/com~apple~CloudDocs/Computer\ Engineer/1.\ semester/Programmering\ for\ Computerteknologi/Afleveringer/GitHub\ week\ 12/assignment-12-mathiesschou/src/duration.cpp
 CMakeFiles/mylib.dir/src/duration.cpp.o: CMakeFiles/mylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mylib.dir/src/duration.cpp.o"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylib.dir/src/duration.cpp.o -MF CMakeFiles/mylib.dir/src/duration.cpp.o.d -o CMakeFiles/mylib.dir/src/duration.cpp.o -c "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/duration.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mylib.dir/src/duration.cpp.o"
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylib.dir/src/duration.cpp.o -MF CMakeFiles/mylib.dir/src/duration.cpp.o.d -o CMakeFiles/mylib.dir/src/duration.cpp.o -c "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/src/duration.cpp"
 
 CMakeFiles/mylib.dir/src/duration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/duration.cpp.i"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/duration.cpp" > CMakeFiles/mylib.dir/src/duration.cpp.i
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/src/duration.cpp" > CMakeFiles/mylib.dir/src/duration.cpp.i
 
 CMakeFiles/mylib.dir/src/duration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/duration.cpp.s"
-	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/src/duration.cpp" -o CMakeFiles/mylib.dir/src/duration.cpp.s
+	/opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/src/duration.cpp" -o CMakeFiles/mylib.dir/src/duration.cpp.s
 
 # Object files for target mylib
 mylib_OBJECTS = \
@@ -93,7 +93,7 @@ mylib_EXTERNAL_OBJECTS =
 libmylib.a: CMakeFiles/mylib.dir/src/duration.cpp.o
 libmylib.a: CMakeFiles/mylib.dir/build.make
 libmylib.a: CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmylib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mylib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mylib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/mylib.dir/clean:
 .PHONY : CMakeFiles/mylib.dir/clean
 
 CMakeFiles/mylib.dir/depend:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles/mylib.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles/mylib.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/mylib.dir/depend
 

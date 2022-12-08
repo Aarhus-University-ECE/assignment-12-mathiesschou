@@ -29,11 +29,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
-  "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/CMakeLists.txt"
+  "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
-  "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/CMakeLists.txt"
+  "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

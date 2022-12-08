@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
- /Users/mathiesschou/Desktop/Programmering\ uge\ 12/assignment-12-mathiesschou/src/main.cpp \
- /Users/mathiesschou/Desktop/Programmering\ uge\ 12/assignment-12-mathiesschou/include/duration.h \
+ /Users/mathiesschou/Library/Mobile\ Documents/com~apple~CloudDocs/Computer\ Engineer/1.\ semester/Programmering\ for\ Computerteknologi/Afleveringer/GitHub\ week\ 12/assignment-12-mathiesschou/src/main.cpp \
+ /Users/mathiesschou/Library/Mobile\ Documents/com~apple~CloudDocs/Computer\ Engineer/1.\ semester/Programmering\ for\ Computerteknologi/Afleveringer/GitHub\ week\ 12/assignment-12-mathiesschou/include/duration.h \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/cassert \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/aarch64-apple-darwin21/bits/c++config.h \
  /opt/homebrew/Cellar/gcc/12.2.0/include/c++/12/aarch64-apple-darwin21/bits/os_defines.h \

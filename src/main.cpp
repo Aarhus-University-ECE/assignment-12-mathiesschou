@@ -5,11 +5,11 @@
 // File for sandboxing and trying out code
 int main(int argc, char **argv)
 {
-    Duration dur;
+    duration dur;
 
     std::cout << dur.getDuration() << "\n";
 
-    Duration d(5);
+    duration d(5);
 
     assert(d.getDuration() == 5);
 
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 
     assert(d.getDuration() == 9);
 
-    Duration dur2(1);
+    duration dur2(1);
 
     dur2.setAlarm(6);
 

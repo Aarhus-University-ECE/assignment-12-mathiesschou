@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou"
+CMAKE_SOURCE_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build"
+CMAKE_BINARY_DIR = "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/tests.dir/depend.make
@@ -70,18 +70,18 @@ include tests/CMakeFiles/tests.dir/progress.make
 include tests/CMakeFiles/tests.dir/flags.make
 
 tests/CMakeFiles/tests.dir/src/tests.cpp.o: tests/CMakeFiles/tests.dir/flags.make
-tests/CMakeFiles/tests.dir/src/tests.cpp.o: /Users/mathiesschou/Desktop/Programmering\ uge\ 12/assignment-12-mathiesschou/tests/src/tests.cpp
+tests/CMakeFiles/tests.dir/src/tests.cpp.o: /Users/mathiesschou/Library/Mobile\ Documents/com~apple~CloudDocs/Computer\ Engineer/1.\ semester/Programmering\ for\ Computerteknologi/Afleveringer/GitHub\ week\ 12/assignment-12-mathiesschou/tests/src/tests.cpp
 tests/CMakeFiles/tests.dir/src/tests.cpp.o: tests/CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/src/tests.cpp.o"
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/src/tests.cpp.o -MF CMakeFiles/tests.dir/src/tests.cpp.o.d -o CMakeFiles/tests.dir/src/tests.cpp.o -c "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/src/tests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/src/tests.cpp.o"
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/src/tests.cpp.o -MF CMakeFiles/tests.dir/src/tests.cpp.o.d -o CMakeFiles/tests.dir/src/tests.cpp.o -c "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests/src/tests.cpp"
 
 tests/CMakeFiles/tests.dir/src/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/tests.cpp.i"
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/src/tests.cpp" > CMakeFiles/tests.dir/src/tests.cpp.i
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests/src/tests.cpp" > CMakeFiles/tests.dir/src/tests.cpp.i
 
 tests/CMakeFiles/tests.dir/src/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/tests.cpp.s"
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/src/tests.cpp" -o CMakeFiles/tests.dir/src/tests.cpp.s
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" && /opt/homebrew/bin/aarch64-apple-darwin21-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests/src/tests.cpp" -o CMakeFiles/tests.dir/src/tests.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
@@ -92,19 +92,20 @@ tests_EXTERNAL_OBJECTS =
 
 tests/tests: tests/CMakeFiles/tests.dir/src/tests.cpp.o
 tests/tests: tests/CMakeFiles/tests.dir/build.make
+tests/tests: libmylib.a
 tests/tests: tests/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tests"
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tests"
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/tests.dir/build: tests/tests
 .PHONY : tests/CMakeFiles/tests.dir/build
 
 tests/CMakeFiles/tests.dir/clean:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/tests.dir/clean
 
 tests/CMakeFiles/tests.dir/depend:
-	cd "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build/tests/CMakeFiles/tests.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build/tests/CMakeFiles/tests.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : tests/CMakeFiles/tests.dir/depend
 

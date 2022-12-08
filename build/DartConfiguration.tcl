@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou
-BuildDirectory: /Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/build
+SourceDirectory: /Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou
+BuildDirectory: /Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: airtilhemathies.eduroam.net.au.dk
+Site: MacBook-Air-tilhrende-Mathies.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-aarch64-apple-darwin21-g++-12
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou"
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou"
 MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests
+# Install script for directory: /Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

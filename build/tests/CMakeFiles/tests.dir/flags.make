@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/bin/aarch64-apple-darwin21-g++-12
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/mathiesschou/Desktop/Programmering uge 12/assignment-12-mathiesschou/tests/include"
+CXX_INCLUDES = -I"/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/tests/include" -I"/Users/mathiesschou/Library/Mobile Documents/com~apple~CloudDocs/Computer Engineer/1. semester/Programmering for Computerteknologi/Afleveringer/GitHub week 12/assignment-12-mathiesschou/include"
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14
 
